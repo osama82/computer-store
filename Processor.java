@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class Display here.
+ * Write a description of class Processor here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Display extends Component
+public class Processor extends Component
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class Display
+     * Constructor for objects of class Processor
      */
-    public Display()
+    public Processor()
     {
         // initialise instance variables
         x = 0;

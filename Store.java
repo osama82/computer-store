@@ -1,22 +1,22 @@
-
+import java.util.*;
 /**
- * Write a description of class Display here.
+ * Write a description of class Store here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Display extends Component
+public class Store
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private ArrayList<Computer> computers;
 
     /**
-     * Constructor for objects of class Display
+     * Constructor for objects of class Store
      */
-    public Display()
+    public Store()
     {
         // initialise instance variables
-        x = 0;
+        
     }
 
     /**
@@ -25,9 +25,5 @@ public class Display extends Component
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
+    
 }
