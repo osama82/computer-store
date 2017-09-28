@@ -15,7 +15,7 @@ public class Store
      */
     public Store()
     {
-        // initialise instance variables
+        computers=new ArrayList<>();  // initialise instance variables
         
     }
 
