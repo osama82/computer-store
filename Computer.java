@@ -23,31 +23,5 @@ public class Computer
         
     }
     
-    public boolean addComputer(Computer newComputer) {
-    
-    return true;
-    
-    }
-    
-    public boolean removeComputer(int index) {
-    
-    return true;
-    
-    }
-    
-    public void printComputerSummary() {
-	
-        
-    }
-    
-    public void printAllComputers( ) {
-	
-    }
-
-    public void printTotalValue( ) {
-	
-        
-        
-    }
-    
+   
 }

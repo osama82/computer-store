@@ -8,14 +8,19 @@
 public class HardDisk extends Component
 {
     // instance variables - replace the example below with your own
-    
+    int capacity;
 
     /**
      * Constructor for objects of class HardDisk
      */
-    public HardDisk()
+    
+    public HardDisk(){
+    }
+    
+    public HardDisk(int cost, String discreption,int capacity)
     {
-        // initialise instance variables
+        super(cost,discreption);
+        this.capacity=capacity;// initialise instance variables
      
     }
 

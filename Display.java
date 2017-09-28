@@ -8,14 +8,24 @@
 public class Display extends Component
 {
     // instance variables - replace the example below with your own
-    
+    private int size;
 
     /**
      * Constructor for objects of class Display
      */
-    public Display()
-    {
-      
+    
+    public Display(){
+    }
+    
+    
+    public Display(int cost,String discreption,int size){
+    
+    super(cost,discreption);
+    this.size=size;
+    
+    
+    
+    
     }
 
     /**

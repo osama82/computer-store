@@ -8,14 +8,19 @@
 public class Processor extends Component
 {
     // instance variables - replace the example below with your own
-    
+    //private int cost;
+    //private String discreption;
+    private int speed;
 
     /**
      * Constructor for objects of class Processor
      */
-    public Processor()
+    public Processor(){
+    }
+    public Processor(int cost, String discreption,int speed)
     {
-        // initialise instance variables
+        super(cost,discreption);
+        this.speed=speed;// inthitialise instance variables
         
     }
 

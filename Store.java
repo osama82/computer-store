@@ -19,11 +19,31 @@ public class Store
         
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
+     public boolean addComputer(Computer newComputer) {
+    
+    return true;
+    
+    }
+    
+    public boolean removeComputer(int index) {
+    
+    return true;
+    
+    }
+    
+    public void printComputerSummary() {
+	
+        
+    }
+    
+    public void printAllComputers( ) {
+	
+    }
+
+    public void printTotalValue( ) {
+	
+        
+        
+    }
     
 }
